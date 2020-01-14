@@ -7,22 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C30252821BE168D600CA5D5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30252811BE168D600CA5D5D /* main.swift */; };
+		423124C123CDDE4300FDED8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31380821BE1567700BC5910 /* AppDelegate.swift */; };
 		C30252851BE16B3F00CA5D5D /* MailDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30252841BE16B3F00CA5D5D /* MailDelegate.swift */; };
 		C313803F1BE033D600BC5910 /* AttributesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C313803E1BE033D600BC5910 /* AttributesVC.swift */; };
 		C31380441BE1455400BC5910 /* InAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31380431BE1455400BC5910 /* InAppVC.swift */; };
 		C31380471BE154B900BC5910 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31380461BE154B900BC5910 /* MainVC.swift */; };
-		C31380831BE1567700BC5910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31380821BE1567700BC5910 /* AppDelegate.swift */; };
 		C314C8761F3E4DC10096691B /* ExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C314C8751F3E4DC10096691B /* ExampleViewController.xib */; };
-		C317F74F1B41FF1B00962B55 /* MceConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = C317F74E1B41FF1B00962B55 /* MceConfig.json */; };
 		C31E82032304647E006F028C /* AcousticMobilePush.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34975E222F2121A0048C956 /* AcousticMobilePush.xcframework */; };
 		C31E82042304647E006F028C /* AcousticMobilePush.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C34975E222F2121A0048C956 /* AcousticMobilePush.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		C3211D971DEE1D8300F1CDFA /* iBeaconVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3211D961DEE1D8300F1CDFA /* iBeaconVC.swift */; platformFilter = ios; };
 		C33571811B3B6461003E0A7A /* MCEInboxActionPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C335716F1B3B6461003E0A7A /* MCEInboxActionPlugin.m */; };
 		C336C1091F3E089400C33D40 /* ExamplePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C336C1061F3E089400C33D40 /* ExamplePlugin.m */; };
 		C336C10A1F3E089400C33D40 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C336C1081F3E089400C33D40 /* ExampleViewController.m */; };
-		C3466A042347BC2F00D7EF02 /* MceConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = C317F74E1B41FF1B00962B55 /* MceConfig.json */; };
-		C3466A052347BC3000D7EF02 /* MceConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = C317F74E1B41FF1B00962B55 /* MceConfig.json */; };
 		C34975E622F212210048C956 /* AcousticMobilePushNotification.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34975E522F212210048C956 /* AcousticMobilePushNotification.xcframework */; platformFilter = ios; };
 		C34975E722F212210048C956 /* AcousticMobilePushNotification.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C34975E522F212210048C956 /* AcousticMobilePushNotification.xcframework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		C34975EC22F225560048C956 /* NavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34975EB22F225560048C956 /* NavigationVC.swift */; };
@@ -73,7 +69,6 @@
 		C3942CC31D70B1B20099BA1E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3942CC21D70B1B20099BA1E /* MapKit.framework */; };
 		C3942CC51D70B1D00099BA1E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3942CC41D70B1D00099BA1E /* CoreLocation.framework */; };
 		C3942CD01D70B39C0099BA1E /* GeofenceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3942CCF1D70B39C0099BA1E /* GeofenceVC.swift */; };
-		C3962CE121E649EA00AEC152 /* MceConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = C317F74E1B41FF1B00962B55 /* MceConfig.json */; };
 		C39CC1CC2347C1A300206E37 /* HandOffController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39CC1CA2347C1A200206E37 /* HandOffController.m */; };
 		C39D40241BE01521006D06C0 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39D40231BE01521006D06C0 /* RegistrationVC.swift */; };
 		C39D40261BE01AD0006D06C0 /* StaticCategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39D40251BE01AD0006D06C0 /* StaticCategoriesVC.swift */; };
@@ -93,7 +88,6 @@
 		C3A75F912224A413007A5E19 /* MceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A75F602224A26A007A5E19 /* MceApi.swift */; };
 		C3A75F922224A416007A5E19 /* ServerReflectorApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A75F642224A26A007A5E19 /* ServerReflectorApi.swift */; };
 		C3A75F932224A419007A5E19 /* WcaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A75F632224A26A007A5E19 /* WcaApi.swift */; };
-		C3A75F942224A447007A5E19 /* MceConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = C317F74E1B41FF1B00962B55 /* MceConfig.json */; };
 		C3A80AD81BA3686E00EE45ED /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A80AD71BA3686E00EE45ED /* CoreTelephony.framework */; };
 		C3A80ADA1BA3687300EE45ED /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A80AD91BA3687300EE45ED /* CoreData.framework */; };
 		C3B839A422DE52B200FBED26 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B839A322DE52B200FBED26 /* WebViewController.xib */; };
@@ -228,14 +222,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C30252811BE168D600CA5D5D /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C30252841BE16B3F00CA5D5D /* MailDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailDelegate.swift; sourceTree = "<group>"; };
 		C313803E1BE033D600BC5910 /* AttributesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributesVC.swift; sourceTree = "<group>"; };
 		C31380431BE1455400BC5910 /* InAppVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InAppVC.swift; sourceTree = "<group>"; };
 		C31380461BE154B900BC5910 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		C31380821BE1567700BC5910 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C314C8751F3E4DC10096691B /* ExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleViewController.xib; sourceTree = "<group>"; };
-		C317F74E1B41FF1B00962B55 /* MceConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MceConfig.json; path = ../../MceConfig.json; sourceTree = SOURCE_ROOT; };
 		C3211D961DEE1D8300F1CDFA /* iBeaconVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iBeaconVC.swift; sourceTree = "<group>"; };
 		C335716E1B3B6461003E0A7A /* MCEInboxActionPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCEInboxActionPlugin.h; sourceTree = "<group>"; };
 		C335716F1B3B6461003E0A7A /* MCEInboxActionPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCEInboxActionPlugin.m; sourceTree = "<group>"; };
@@ -752,7 +744,6 @@
 			isa = PBXGroup;
 			children = (
 				C3E6C72722FDF0EB00529AE3 /* SampleColors.swift */,
-				C30252811BE168D600CA5D5D /* main.swift */,
 				C3942CCF1D70B39C0099BA1E /* GeofenceVC.swift */,
 				C3211D961DEE1D8300F1CDFA /* iBeaconVC.swift */,
 				C31380821BE1567700BC5910 /* AppDelegate.swift */,
@@ -764,7 +755,6 @@
 				C3E7BD312153072D00468378 /* EventVC.swift */,
 				C367FDC01BE2733300AD32AE /* CellStatusTableViewController.swift */,
 				C313803E1BE033D600BC5910 /* AttributesVC.swift */,
-				C317F74E1B41FF1B00962B55 /* MceConfig.json */,
 				C39D40271BE02349006D06C0 /* EditCell.swift */,
 				C34975EB22F225560048C956 /* NavigationVC.swift */,
 				C3D01E5E1A607F7E00C9A66C /* Supporting Files */,
@@ -1006,7 +996,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3466A052347BC3000D7EF02 /* MceConfig.json in Resources */,
 				C35A58DA23479FA800C3E859 /* Assets.xcassets in Resources */,
 				C35A58D823479FA600C3E859 /* Interface.storyboard in Resources */,
 			);
@@ -1017,7 +1006,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C35A58EC23479FA900C3E859 /* Assets.xcassets in Resources */,
-				C3466A042347BC2F00D7EF02 /* MceConfig.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1025,7 +1013,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3962CE121E649EA00AEC152 /* MceConfig.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1041,7 +1028,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3A75F942224A447007A5E19 /* MceConfig.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1058,7 +1044,6 @@
 				C35F70B71C654EB000070DB6 /* MCEInboxPostTemplateView.xib in Resources */,
 				C3CF5BEE1C5803C50026ECC8 /* MCEInAppVideoTemplate.xib in Resources */,
 				C35F70B81C654EB000070DB6 /* Media.xcassets in Resources */,
-				C317F74F1B41FF1B00962B55 /* MceConfig.json in Resources */,
 				C35F70B21C654EB000070DB6 /* MCEInboxPostTemplateDisplay.xib in Resources */,
 				C314C8761F3E4DC10096691B /* ExampleViewController.xib in Resources */,
 				C3DC7EA91B83ECB800BA1CDD /* Inbox Images.xcassets in Resources */,
@@ -1135,8 +1120,6 @@
 				C3CF5BE81C5803C50026ECC8 /* MCEInAppImageTemplate.m in Sources */,
 				C34975EC22F225560048C956 /* NavigationVC.swift in Sources */,
 				C35F70A91C654EB000070DB6 /* MCEInboxDefaultTemplate.m in Sources */,
-				C31380831BE1567700BC5910 /* AppDelegate.swift in Sources */,
-				C30252821BE168D600CA5D5D /* main.swift in Sources */,
 				C30252851BE16B3F00CA5D5D /* MailDelegate.swift in Sources */,
 				C39D40281BE02349006D06C0 /* EditCell.swift in Sources */,
 				C35F70AE1C654EB000070DB6 /* MCEInboxPostTemplate.m in Sources */,
@@ -1164,6 +1147,7 @@
 				C3211D971DEE1D8300F1CDFA /* iBeaconVC.swift in Sources */,
 				C35F70B11C654EB000070DB6 /* MCEInboxPostTemplateDisplay.m in Sources */,
 				C35F70B31C654EB000070DB6 /* MCEInboxPostTemplateImage.m in Sources */,
+				423124C123CDDE4300FDED8A /* AppDelegate.swift in Sources */,
 				C3E6C72822FDF0EB00529AE3 /* SampleColors.swift in Sources */,
 				C3C58E351C0F6090001F39D3 /* WebViewController.m in Sources */,
 				C336C10A1F3E089400C33D40 /* ExampleViewController.m in Sources */,
