@@ -3,7 +3,7 @@
     "appDelegateClass": "SwiftSample.AppDelegate",
     
     "Please note: if you are in Europe, you may need to change the value in 'baseUrl' below to": "https://sdk6.ibm.xtify.com",
-    "baseUrl": "https://engage6.silverpop.com",
+    "baseUrl": "https://sdk6.ibm.xtify.com",
     "appKey": {
         "dev": "ap9cvqzAx8",
         "prod": "ap58k55f9s"
