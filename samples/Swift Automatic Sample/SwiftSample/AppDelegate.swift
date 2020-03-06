@@ -50,12 +50,14 @@ import AcousticMobilePush
         }
         
         inboxUpdate()
+        setupGeofenceObserver()
         NotificationCenter.default.addObserver(self, selector: #selector(AppDelegate.inboxUpdate), name:
             MCENotificationName.InboxCountUpdate.rawValue, object: nil)
 
         MCESdk.shared.presentNotification = {(userInfo) -> Bool in
             return true
         }
+        
         UserDefaults.standard.register(defaults: ["action":"update", "standardType":"dial",  "standardDialValue":"\"8774266006\"",  "standardUrlValue":"\"http://acoustic.co\"",  "customType":"sendEmail",  "customValue":"{\"subject\":\"Hello from Sample App\",  \"body\": \"This is an example email body\",  \"recipient\":\"fake-email@fake-site.com\"}",  "categoryId":"example", "button1":"Accept", "button2":"Reject"])
 
         if #available(iOS 10.0, *) {
@@ -156,6 +158,15 @@ import AcousticMobilePush
             return true
         }
         return false
+    }
+    
+    func setupGeofenceObserver() {
+        NotificationCenter.default.addObserver(forName: MCENotificationName.EnteredGeofence.rawValue,
+                                               object: self,
+                                               queue: .main) { (notification) in
+            // use note.userInfo[@"region"].center
+            // use note.userInfo[@"region"].radius
+        }
     }
     
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
